@@ -21,6 +21,8 @@
 @property (nonatomic, assign) CGFloat backgroundRingWidth;
 /**The width of the progress ring in points.*/
 @property (nonatomic, assign) CGFloat progressRingWidth;
+/**The background color of the progress ring.*/
+@property (nonatomic, retain) UIColor *backgroundLayerColor;
 /**@name Percentage*/
 /**Wether or not to display a percentage inside the ring.*/
 @property (nonatomic, assign) BOOL showPercentage;

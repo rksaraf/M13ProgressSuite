@@ -151,6 +151,12 @@
     [self setNeedsDisplay];
 }
 
+- (void)setBackgroundLayerColor:(UIColor*)backgroundLayerColor
+{
+    _backgroundLayer.fillColor = backgroundLayerColor.CGColor;
+    [self setNeedsDisplay];
+}
+
 - (void)setProgressRingWidth:(CGFloat)progressRingWidth
 {
     _progressRingWidth = progressRingWidth;
